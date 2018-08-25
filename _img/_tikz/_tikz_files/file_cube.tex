@@ -1,0 +1,72 @@
+\begin{tikzpicture}[scale=2,every node/.style={scale=1}]
+
+\draw[fill=black!15, draw=none] (0,0,3) rectangle (4,2,3);
+\fill[black!15, draw=none] (4 ,0 ,3) -- (4 ,0 ,0) -- (4,2,0) --  (4,2,3) -- cycle;
+
+\foreach \x in {0,...,3} %laenge
+{   \draw (\x ,0  ,3 ) -- (\x ,3 ,3 );    
+}
+
+\foreach \x in {0,...,4} %laenge
+{ 
+    \draw [dashed](\x ,3 ,3 ) -- (\x ,3 ,0  );
+}
+
+
+\foreach \x in {0,...,1}
+{  \draw (4 ,\x ,3 ) -- (4 ,\x ,0  );
+    \draw (0  ,\x ,3 ) -- (4 ,\x ,3 );
+
+}
+ \draw [dashed] (4 ,2 ,3 ) -- (4 ,2 ,0  );
+ \draw [dashed](0  ,2 ,3 ) -- (4 ,2 ,3 );
+
+\foreach \x in {0,...,3}
+{   \draw (4 ,0  ,\x ) -- (4 ,3 ,\x );
+    \draw [dashed] (0  ,3 ,\x ) -- (4 ,3 ,\x );
+}
+%\draw[decorate, decoration={brace, amplitude=.5cm}] (-1,0,3 ) -- node[pos=.5, align=left, xshift=.2cm]{mitte}node[pos=1,xshift=.5cm]{oben}node[pos=0,xshift=.5cm]{unten}node[pos=.5, xshift=-1.7cm, align=right]{beschriftung}(-1,3,3 ); % klammer links
+\begin{scope}[text width=2cm, xshift=-.2cm,nodes={draw=none}]
+ \draw(-.7,0,3) to (-1,0,3) to 
+coordinate[midway] (midleft)
+coordinate[midway, xshift=-.7cm] (midleftshift) 
+node [midway, xshift=-2.7cm]{Kreativit\"atsebene} 
+node [pos=0.2,xshift=1.2cm, align=left]{Individual}
+node [pos=.5,xshift=1.2cm, align=left]{Gruppe} 
+node [pos=.8,xshift=1.2 cm, align=left]{Organisation}
+ (-1,3,3) to (-.7,3,3); %klammer links
+ \end{scope}
+ \draw (midleft) to (midleftshift);%klammer links
+
+
+\begin{scope}[text width=1.5cm, yshift=-.1cm, align=center, nodes={draw=none}]
+%\draw[decorate, decoration={brace, amplitude=.5cm, mirror}] (0,-.5,3 ) -- node[pos=.5, align=left, yshift=.2cm]{mitte}node[pos=1,yshift=.5cm]{rechts}node[pos=0,yshift=.5cm]{links}node[pos=.5, yshift=-1cm, align=right]{beschriftung}(4,-.5,3 ); %klammer unten
+\draw(0,-.2,3) to (0,-.5,3) to 
+coordinate[midway] (middown) 
+coordinate[midway, yshift=-.7cm] (middownshift) 
+node [midway, yshift=-1cm, rotate=0, text width=2cm]{4-P Rhode} 
+node [pos=0.13,rotate=0, yshift=.5cm]{Person}
+node [pos=0.37,rotate=0,yshift=.5cm]{Prozess} 
+node [pos=0.63,rotate=0,yshift=.5cm]{Produkt}  
+node [pos=.9,rotate=0,yshift=.5cm]{Umwelt}
+(4,-.5,3) to (4,-.2,3); %klammer unten
+\end{scope}
+\draw (middown) to (middownshift);%klammer unten
+
+
+%\draw[decorate, decoration={brace, amplitude=.5cm, mirror}] (4,-.5,2.5 ) --  node[pos=.5, align=left, xshift=-.2cm]{mitte}node[pos=1,xshift=-.5cm]{oben}node[pos=0,xshift=-.5cm]{unten}node[pos=.5, xshift=1.7cm, align=right]{beschriftung} (4,-.5,-.5 ); % klammer rechts
+\begin{scope}[text width=2.6cm, xshift=1.5cm ,align=left, nodes={draw=none}]
+\draw(3.7,-.5,2.5) to (4,-.5,2.5) to 
+coordinate[pos=.6] (midright) 
+coordinate[pos=.6,xshift=.7cm] (midrightshift) 
+node [pos=.9,xshift=-1.5cm]{Kreativit\"atstest} 
+node [pos=.58, xshift=-1.7cm]{Fremdbeurteilung}
+node [pos=0.1, xshift=-1.5cm, yshift=.4cm]{Eigenberuteilung}
+(4,-.5,-.5 ) to (3.7,-.5,-.5); %klammer rechts
+\end{scope}
+\draw (midright) to node [pos=2.9,xshift=0cm, yshift=0cm, align=left]{Testverfahren} (midrightshift);%klammer rechts
+
+
+%\draw[red, thick] (4,0,3)--(4,0,0) -- (4,2,0) -- (4,2,3) -- cycle;
+%\draw[red, thick] (4,0,3)--(0,0,3)--(0,2,3)--(4,2,3);
+\end{tikzpicture}

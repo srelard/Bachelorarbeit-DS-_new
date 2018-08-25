@@ -1,0 +1,20 @@
+\IfFileExists{../../_preamble/check_file.tex}% prüfen aus welcher datei der aufruf stattfindet
+{%
+\providecommand{\myPath}{../../}% file exists=true: befinde mich im unterverzeichnis
+}%
+{%
+\providecommand{\myPath}{}% file exists=false: befinde mich im root_verzeichnis
+}%
+\input{\myPath_preamble/class_declaration_sa.tex}%% läd standalone-klasse mit tikz-argument
+\input{\myPath_preamble/tikz_library.tex}%% diverse tikz-bibliotheken
+\input{\myPath_preamble/graphic_packages.tex}%% nur laden wenn weitere graphic pakete benötigt werden (tabellen, pgfplot,...)
+\input{\myPath_preamble/tikz_styles.tex}%% tikz-styles, farben etc.
+\begin{document}%
+\IfFileExists{../../_preamble/check_file.tex}% prüfen aus welcher datei der aufruf stattfindet
+{%file exists=true: befinde mich im unterverzeichnis
+\input{_tikz_files/file_venn_diagram.tex}%
+}%
+{%file exists=false: befinde mich im root_verzeichnis
+\input{_img/_tikz/_tikz_files/file_venn_diagram.tex}%
+}%
+\end{document}%

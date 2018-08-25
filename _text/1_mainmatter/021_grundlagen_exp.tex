@@ -1,0 +1,52 @@
+\begin{mydef}{Experiment}{def_exp}
+  Im Zuge dieser Arbeit impliziert der Begriff „Wirtschaftsinformatik“ die Betrachtung (konstruierter) IT-Artefakte ausschließlich in Form softwareseitiger Anwendungssysteme.
+  This theorem is numbered with  \ref{def:def_exp} and is given on page \pageref{def:def_exp}.
+\end{mydef}
+
+
+
+%%Einbindung der Grafiken rotiert %% 
+ 
+ \begin{figure}[h]
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{_img/_forest/block_experiment.tex}%
+ }
+ \caption{}
+ \end{figure}
+
+ 
+\begin{sidewaysfigure}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \input{_img/_forest/block_experiment.tex}%
+    }
+    \caption{ Here is a caption of the figure which is so long that 
+      it has to be wrapped over multiple lines, but should 
+      not exceed the width (height after the rotation) of the image.}
+    \label{fig:awesome_image}
+\end{sidewaysfigure}
+
+ 
+\begin{figure}[ht]
+  \begin{adjustbox}{addcode={\begin{minipage}{\width}}{\caption{%
+      Here is a caption of the figure which is so long that 
+      it has to be wrapped over multiple lines, but should 
+      not exceed the width (height after the rotation) of the image.
+      }\end{minipage}},rotate=90,center}
+      \resizebox{\textheight}{!}{%
+      \input{_img/_forest/block_experiment.tex}%
+      }
+  \end{adjustbox}
+\end{figure}
+ 
+ 
+\begin{figure}[ht]
+  \begin{adjustbox}{addcode={\begin{minipage}{\width}}{\caption{%
+      Here is a caption of the figure which is so long that 
+      it has to be wrapped over multiple lines, but should 
+      not exceed the width (height after the rotation) of the image.
+      }\end{minipage}},rotate=90,center}
+      \includegraphics[width=\textheight]{_img/_forest/block_experiment.pdf}%
+  \end{adjustbox}
+\end{figure}

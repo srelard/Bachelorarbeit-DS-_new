@@ -1,0 +1,76 @@
+\IfFileExists{../../_preamble/check_file.tex}% prüfen aus welcher datei der aufruf stattfindet
+{%
+\providecommand{\myPath}{../../}% file exists=true: befinde mich im unterverzeichnis
+}%
+{%
+\providecommand{\myPath}{}% file exists=false: befinde mich im root_verzeichnis
+}%
+\input{\myPath_preamble/class_declaration_sa.tex}%% läd standalone-klasse mit tikz-argument
+\input{\myPath_preamble/tikz_library.tex}%% diverse tikz-bibliotheken
+\input{\myPath_preamble/graphic_packages.tex}%% nur laden wenn weitere graphic pakete benötigt werden (tabellen, pgfplot,...)
+\input{\myPath_preamble/tikz_styles.tex}%% tikz-styles, farben etc.
+\begin{document}
+\begin{forest}
+for tree={grow=south},forked edges,
+[Experimente zum Thema Kreativität in der Wirtschatfsinformatik
+    [ Veröffentlichung
+        [<1990]
+        [<2000]
+        [<2010]
+        [>2010]
+    ]
+    [Aufgabenart
+        [Generierung
+            [Probandenrelevant]
+            [Nicht Probandenrelevant]
+        ]
+        [Selektion
+            [Probandenrelevant]
+            [Nicht Probandenrelevant]
+        ]
+    ]
+    [,phantom
+        [,phantom
+            [,phantom
+                [test
+                    [test1] [test2 [test3]]
+                ]
+            ]
+        ]
+    ]
+    [Teilnehmermotivation
+        [Bezahlung
+            [>10 Euro]
+            [<=10 Euro]
+        ]
+        [Leistungspunkte]
+        [Teilnehmerrelevanz]
+    ]
+    [Kontrolle von Störgrößen
+    [4
+            [Gruppe6]
+        ]
+        [Gruppe5]
+    ]
+    [Gruppe 4
+    [4
+            [Gruppe6]
+        ]
+        [Gruppe5 [Gruppe4[Gruppe8[7[0[Gruppe4]]]]]]
+    ]
+    [Gruppe 5
+    [Gruppe4
+            [Gruppe6]
+        ]
+        [5]
+    ]
+    [Gruppe 6
+    [Gruppe4
+            [Gruppe6]
+        ]
+        [Gruppe5]
+    ]
+]
+\end{forest}
+
+\end{document}

@@ -1,0 +1,49 @@
+ \pgfplotstableread[]{data/plot_gm_gmi.dat}\data
+    % add new column with Julian integer numbers
+        % therefore a counter is needed
+        \newcount\julianday
+    \pgfplotstablecreatecol[
+        create col/assign/.code={
+            % convert the number of the current row and save it to `\julianday'
+            \pgfcalendardatetojulian{\thisrow{year}}{\julianday}
+            % then give the entry of `\julianday' to `\entry' which is then
+            % given to the current cell
+            \edef\entry{\the\julianday}
+            \pgfkeyslet{/pgfplots/table/create col/next content}\entry
+        },
+    ]{JulianDay}{\data}
+    % because the `dateplot' library shifts automatically all dates to 0 using
+    % the first found coordinate we can't use the created `JulianDay' data
+    % directly for `linear regression', but have to do the same first with
+    % the data
+        % get the first coordinate of the column ...
+        \pgfplotstablegetelem{0}{JulianDay}\of{\data}
+        % ... and store it in `\xmin'
+        \pgfmathtruncatemacro{\xmin}{\pgfplotsretval}
+    % now create another column with the shifted values
+    \pgfplotstablecreatecol[
+        expr={\thisrow{JulianDay}-\xmin},
+    ]{JulianDayMod}{\data}
+% --------------------------------------------------------
+%% for debugging purposes only
+%% show resulting numbers, if you want
+%\pgfplotstabletypeset[
+%    column type=l,
+%    columns={date,JulianDay,JulianDayMod,value},
+%    columns/date/.style={string type},
+%    columns/JulianDay/.style={/pgf/number format/fixed},
+%]\data
+% --------------------------------------------------------
+\begin{tikzpicture}
+    \begin{axis}[date coordinates in=x]
+        \addplot+ [only marks] table [x=year,y=gm] {\data};
+        \addplot+ [mark=none]  table [
+            x=year,
+            % now we can use the newly created column to do the linear regression
+            y={create col/linear regression={
+                x=JulianDayMod,
+                y=gm,
+            }}
+        ] {\data};
+    \end{axis}
+\end{tikzpicture}

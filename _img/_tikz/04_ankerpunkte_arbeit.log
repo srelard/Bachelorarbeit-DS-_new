@@ -1,0 +1,1181 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.14)  20 AUG 2018 17:42
+entering extended mode
+**./04_ankerpunkte_arbeit.tex
+(04_ankerpunkte_arbeit.tex
+LaTeX2e <2018-04-01> patch level 5
+(../../_preamble/class_declaration_sa.tex)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\standalone\sta
+ndalone.cls"
+Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
+dalone
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc
+.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifl
+uatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifp
+df.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
+tex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyva
+l.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkey
+val.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvu
+tils.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyv
+al.tex"))
+\XKV@depth=\count80
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count81
+\c@sapage=\count82
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\standalone\sta
+ndalone.cfg"
+File: standalone.cfg 2018/03/26 v1.3a Default configuration file for 'standalon
+e' class
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.c
+ls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.cl
+o"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendla
+yer\tikz.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer
+\pgf.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
+pgfrcs.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfutil-common.tex"
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfutil-common-lists.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfutil-latex.def"
+\pgfutil@abb=\box26
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.st
+y"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer
+\pgfcore.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+icx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graph
+ics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.
+sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\g
+raphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\p
+dftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlaye
+r\pgfsys.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count91
+\c@pgf@countb=\count92
+\c@pgf@countc=\count93
+\c@pgf@countd=\count94
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count95
+\pgfsyssoftpath@bigbuffer@items=\count96
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemla
+yer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.
+sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\c
+olor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+math.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathcalc.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathutil.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathparser.code.tex"
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count97
+\pgfmath@box=\box27
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.basic.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.trigonometric.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.random.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.comparison.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.base.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.round.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.misc.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfunctions.integerarithmetics.code.tex")))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+mathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count98
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count99
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count100
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclay
+er\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
+pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
+pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibil
+ity\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibil
+ity\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
+pgffor.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
+pgfkeys.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfkeys.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfma
+th.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+math.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgf
+math.code.tex")
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count101
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count102
+\tikznumberofchildren=\count103
+\tikznumberofcurrentchild=\count104
+\tikz@fig@count=\count105
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
+pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count106
+\pgfmatrixcurrentcolumn=\count107
+\pgf@matrix@numberofcolumns=\count108
+)
+\tikz@expandcount=\count109
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+\sa@box=\box37
+)
+(../../_preamble/tikz_library.tex
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen151
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryfit.code.tex"
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarymatrix.code.tex"
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarydecorations.markings.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\
+pgfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count110
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box38
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\decorations\pgflibrarydecorations.markings.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\decorations\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarybackgrounds.code.tex"
+File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
+\pgf@layerbox@background=\box39
+\pgf@layerboxsaved@background=\box40
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshadings.code.tex"
+File: tikzlibraryshadings.code.tex 2008/10/29 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryshadings.code.tex"
+File: pgflibraryshadings.code.tex 2008/10/29 v3.0.1a (rcs-revision 1.2)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshadows.code.tex"
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryfadings.code.tex"
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryfadings.code.tex"
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+))
+(../../_preamble/graphic_packages.tex
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfpl
+ots.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotscore.code.tex"
+\t@pgfplots@toka=\toks28
+\t@pgfplots@tokb=\toks29
+\t@pgfplots@tokc=\toks30
+\pgfplots@tmpa=\dimen159
+\c@pgfplots@coordindex=\count111
+\c@pgfplots@scanlineindex=\count112
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys
+\pgfplotssysgeneric.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lib
+s\pgfplotslibrary.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\old
+pgfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\old
+pgfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\old
+pgfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count113
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\old
+pgfcompatib\pgfplotsoldpgfsupp_leq.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotsutil.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lis
+tstructure\pgfplotsliststructure.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lis
+tstructure\pgfplotsliststructureext.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lis
+tstructure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count114
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lis
+tstructure\pgfplotsmatrix.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\num
+table\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count115
+\t@pgfplotstable@a=\toks31
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lis
+tstructure\pgfplotsdeque.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotsbinary.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotsbinary.data.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotsutil.verb.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lib
+s\pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count116
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys
+\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotscolormap.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\uti
+l\pgfplotscolor.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotsstackedplots.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotsplothandlers.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotsmeshplothandler.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotsmeshplotimage.code.tex")))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.scaling.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotscoordprocessing.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.errorbars.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.markers.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plotsticks.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.paths.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+\pgfplots@numplots=\count117
+\pgfplots@xmin@reg=\dimen160
+\pgfplots@xmax@reg=\dimen161
+\pgfplots@ymin@reg=\dimen162
+\pgfplots@ymax@reg=\dimen163
+\pgfplots@zmin@reg=\dimen164
+\pgfplots@zmax@reg=\dimen165
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfpl
+otstable.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgf
+plots.revision.tex")
+Package: pgfplotstable 2018/03/28 v1.16 Table typesetting and Pretty-printing (
+1.16)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\num
+table\pgfplotstable.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\num
+table\pgfplotstable.coltype.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.st
+y"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box41
+\extrarowheight=\dimen167
+\NC@list=\toks32
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box42
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lib
+s\tikzlibrarypgfplots.dateplot.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\
+pgfcalendar.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilitie
+s\pgfcalendar.code.tex"
+File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
+\pgfcalendarcurrentjulian=\count118
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\lib
+s\tikzlibrarypgfplots.units.code.tex")
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\venndiagram\ve
+nndiagram.sty"
+Package: venndiagram 2018/06/07 v1.2 (NLCT) Venn diagrams
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etool
+box.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count119
+)
+\@venn@Ax=\skip45
+\@venn@Ay=\skip46
+\@venn@Bx=\skip47
+\@venn@By=\skip48
+\@venn@Cx=\skip49
+\@venn@Cy=\skip50
+\@venn@w=\skip51
+\@venn@h=\skip52
+\@venn@intersect@i@x=\skip53
+\@venn@intersect@i@y=\skip54
+\@venn@intersect@ii@x=\skip55
+\@venn@intersect@ii@y=\skip56
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\forest\forest.
+sty"
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.callouts.code.tex"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.callouts.code.tex"))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontend
+layer\tikz\libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\shapes\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box43
+\pgfnodeparttwobox=\box44
+\pgfnodepartthreebox=\box45
+\pgfnodepartfourbox=\box46
+\pgfnodeparttwentybox=\box47
+\pgfnodepartnineteenbox=\box48
+\pgfnodeparteighteenbox=\box49
+\pgfnodepartseventeenbox=\box50
+\pgfnodepartsixteenbox=\box51
+\pgfnodepartfifteenbox=\box52
+\pgfnodepartfourteenbox=\box53
+\pgfnodepartthirteenbox=\box54
+\pgfnodeparttwelvebox=\box55
+\pgfnodepartelevenbox=\box56
+\pgfnodeparttenbox=\box57
+\pgfnodepartninebox=\box58
+\pgfnodeparteightbox=\box59
+\pgfnodepartsevenbox=\box60
+\pgfnodepartsixbox=\box61
+\pgfnodepartfivebox=\box62
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\librarie
+s\pgflibraryintersections.code.tex"
+\pgf@intersect@solutions=\count120
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfopts\pgfopt
+s.sty"
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks33
+\pgfopts@list@add@b@toks=\toks34
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\elocalloc\eloc
+alloc.sty"
+Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\enviro
+n.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\tri
+mspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks35
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xpa
+rse\xparse.sty"
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3
+.sty"
+Package: expl3 2018-06-14 L3 programming layer (loader) 
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3
+-code.tex"
+Package: expl3 2018-06-14 L3 programming layer (code)
+\c_max_int=\count121
+\l_tmpa_int=\count122
+\l_tmpb_int=\count123
+\g_tmpa_int=\count124
+\g_tmpb_int=\count125
+\g__kernel_prg_map_int=\count126
+\c_log_iow=\count127
+\l_iow_line_count_int=\count128
+\l__iow_line_target_int=\count129
+\l__iow_one_indent_int=\count130
+\l__iow_indent_int=\count131
+\c_zero_dim=\dimen168
+\c_max_dim=\dimen169
+\l_tmpa_dim=\dimen170
+\l_tmpb_dim=\dimen171
+\g_tmpa_dim=\dimen172
+\g_tmpb_dim=\dimen173
+\c_zero_skip=\skip57
+\c_max_skip=\skip58
+\l_tmpa_skip=\skip59
+\l_tmpb_skip=\skip60
+\g_tmpa_skip=\skip61
+\g_tmpb_skip=\skip62
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count132
+\l__intarray_loop_int=\count133
+\c__intarray_sp_dim=\dimen174
+\g__intarray_font_int=\count134
+\c__fp_leading_shift_int=\count135
+\c__fp_middle_shift_int=\count136
+\c__fp_trailing_shift_int=\count137
+\c__fp_big_leading_shift_int=\count138
+\c__fp_big_middle_shift_int=\count139
+\c__fp_big_trailing_shift_int=\count140
+\c__fp_Bigg_leading_shift_int=\count141
+\c__fp_Bigg_middle_shift_int=\count142
+\c__fp_Bigg_trailing_shift_int=\count143
+\c__kernel_randint_max_int=\count144
+\g__fp_array_int=\count145
+\l__fp_array_loop_int=\count146
+\l__sort_length_int=\count147
+\l__sort_min_int=\count148
+\l__sort_top_int=\count149
+\l__sort_max_int=\count150
+\l__sort_true_max_int=\count151
+\l__sort_block_int=\count152
+\l__sort_begin_int=\count153
+\l__sort_end_int=\count154
+\l__sort_A_int=\count155
+\l__sort_B_int=\count156
+\l__sort_C_int=\count157
+\l__tl_analysis_normal_int=\count158
+\l__tl_analysis_index_int=\count159
+\l__tl_analysis_nesting_int=\count160
+\l__tl_analysis_type_int=\count161
+\l__regex_internal_a_int=\count162
+\l__regex_internal_b_int=\count163
+\l__regex_internal_c_int=\count164
+\l__regex_balance_int=\count165
+\l__regex_group_level_int=\count166
+\l__regex_mode_int=\count167
+\c__regex_cs_in_class_mode_int=\count168
+\c__regex_cs_mode_int=\count169
+\l__regex_catcodes_int=\count170
+\l__regex_default_catcodes_int=\count171
+\c__regex_catcode_D_int=\count172
+\c__regex_catcode_S_int=\count173
+\c__regex_catcode_L_int=\count174
+\c__regex_catcode_O_int=\count175
+\c__regex_catcode_A_int=\count176
+\c__regex_all_catcodes_int=\count177
+\l__regex_show_lines_int=\count178
+\l__regex_min_state_int=\count179
+\l__regex_max_state_int=\count180
+\l__regex_left_state_int=\count181
+\l__regex_right_state_int=\count182
+\l__regex_capturing_group_int=\count183
+\l__regex_min_pos_int=\count184
+\l__regex_max_pos_int=\count185
+\l__regex_curr_pos_int=\count186
+\l__regex_start_pos_int=\count187
+\l__regex_success_pos_int=\count188
+\l__regex_curr_char_int=\count189
+\l__regex_curr_catcode_int=\count190
+\l__regex_last_char_int=\count191
+\l__regex_case_changed_char_int=\count192
+\l__regex_curr_state_int=\count193
+\l__regex_step_int=\count194
+\l__regex_min_active_int=\count195
+\l__regex_max_active_int=\count196
+\l__regex_replacement_csnames_int=\count197
+\l__regex_match_count_int=\count198
+\l__regex_min_submatch_int=\count199
+\l__regex_submatch_int=\count266
+\l__regex_zeroth_submatch_int=\count267
+\g__regex_trace_regex_int=\count268
+\c_empty_box=\box63
+\l_tmpa_box=\box64
+\l_tmpb_box=\box65
+\g_tmpa_box=\box66
+\g_tmpb_box=\box67
+\l__box_top_dim=\dimen175
+\l__box_bottom_dim=\dimen176
+\l__box_left_dim=\dimen177
+\l__box_right_dim=\dimen178
+\l__box_top_new_dim=\dimen179
+\l__box_bottom_new_dim=\dimen180
+\l__box_left_new_dim=\dimen181
+\l__box_right_new_dim=\dimen182
+\l__box_internal_box=\box68
+\l__coffin_internal_box=\box69
+\l__coffin_internal_dim=\dimen183
+\l__coffin_offset_x_dim=\dimen184
+\l__coffin_offset_y_dim=\dimen185
+\l__coffin_x_dim=\dimen186
+\l__coffin_y_dim=\dimen187
+\l__coffin_x_prime_dim=\dimen188
+\l__coffin_y_prime_dim=\dimen189
+\c_empty_coffin=\box70
+\l__coffin_aligned_coffin=\box71
+\l__coffin_aligned_internal_coffin=\box72
+\l_tmpa_coffin=\box73
+\l_tmpb_coffin=\box74
+\l__coffin_display_coffin=\box75
+\l__coffin_display_coord_coffin=\box76
+\l__coffin_display_pole_coffin=\box77
+\l__coffin_display_offset_dim=\dimen190
+\l__coffin_display_x_dim=\dimen191
+\l__coffin_display_y_dim=\dimen192
+\g__file_internal_ior=\read2
+\l__coffin_bounding_shift_dim=\dimen193
+\l__coffin_left_corner_dim=\dimen194
+\l__coffin_right_corner_dim=\dimen195
+\l__coffin_bottom_corner_dim=\dimen196
+\l__coffin_top_corner_dim=\dimen197
+\l__coffin_scaled_total_height_dim=\dimen198
+\l__coffin_scaled_width_dim=\dimen199
+\l__seq_internal_a_int=\count269
+\l__seq_internal_b_int=\count270
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdf
+mode.def"
+File: l3pdfmode.def 2018-06-14 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count271
+))
+Package: xparse 2018-05-12 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count272
+\g__xparse_grabber_int=\count273
+\l__xparse_m_args_int=\count274
+\l__xparse_mandatory_args_int=\count275
+\l__xparse_v_nesting_int=\count276
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\inlinedef\inli
+nedef.sty"
+Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
+\ID@toks=\toks36
+\ID@count=\count277
+)
+\ID@usercommands=\toks37
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \useforestlibrary with sig. 's O{} m' on line 166.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ProvidesForestLibrary with sig. 'm O{}' on line 176.
+.................................................
+\safeloop@depth=\count278
+\safeRKloop@depth=\count279
+\forest@temp@dimen=\dimen256
+\forest@temp@count=\count280
+\forest@n=\count281
+\forest@temp@global@count=\count282
+\forest@temp@toks=\toks38
+\forest@temparray@M=\count283
+\forest@temparray@N=\count284
+\forest@global@temparray@M=\count285
+\forest@global@temparray@N=\count286
+\forest@isnum@count=\count287
+\forest@isdim@nonintpart=\count288
+\forest@isdim@dimen=\dimen257
+\forest@sort@m=\count289
+\forest@sort@k=\count290
+\forest@sort@p=\count291
+\bracket@content=\toks39
+\bracket@afterthought=\toks40
+\forest@node@maxid=\count292
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \forestdebugtypeouttrees with sig. 'o' on line 2303.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \forestdebugtypeouttree with sig. 'd() O{\forest@cn }' on
+. line 2348.
+.................................................
+\forest@process@left@M=\count293
+\forest@process@left@N=\count294
+\forest@process@right@M=\count295
+\forest@process@right@N=\count296
+\forest@process@saved@M=\count297
+\forest@process@saved@N=\count298
+\forest@process@result@M=\count299
+\forest@process@result@N=\count300
+\forest@process@n=\count301
+\forest@nodewalk@branch@toks=\toks41
+\forest@nodewalk@shortsteps@resolution=\toks42
+\forest@do@dynamics=\toks43
+\forest@box=\box78
+\forest@xg=\dimen258
+\forest@yg=\dimen259
+\forest@xs=\dimen260
+\forest@ys=\dimen261
+\forest@pi@toks=\toks44
+\forest@segment@toks=\toks45
+\forest@PIi@toks=\toks46
+\forest@PIii@toks=\toks47
+\forest@copy@in=\read3
+\forest@copy@out=\write4
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'forest' with sig. 'D(){}' on line 8510.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Forest with sig. 's D(){} m' on line 8515.
+.................................................
+\forest@externalize@max@outer@n=\count302
+\forest@externalize@inner@n=\count303
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\forest\forest-
+lib-edges.sty"
+Package: forest-lib-edges 2016/12/05 v0.1.1
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotat
+ing.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.st
+y"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count304
+\rotFPtop=\skip63
+\rotFPbot=\skip64
+\rot@float@box=\box79
+\rot@mess@toks=\toks48
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\import\import.
+sty"
+Package: import 2009/03/23  v 5.1
+) (../../root_folder.tex)) (../../_preamble/tikz_styles.tex)
+(04_ankerpunkte_arbeit.aux)
+\openout1 = `04_ankerpunkte_arbeit.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) ABD: EveryShipout initializing macros
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pd
+f.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count305
+\scratchdimen=\dimen262
+\scratchbox=\box80
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen263
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks50
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epsto
+pdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\inf
+warerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfex
+t.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvd
+efinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltx
+cmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopt
+ions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvs
+etkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ete
+xcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Sebastian\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdf
+texcmds.sty"
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
+
+(_tikz_files/file_ankerpunkte_arbeit.tex
+Missing character: There is no ] in font nullfont!
+ [1
+
+{C:/Users/Sebastian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (04_an
+kerpunkte_arbeit.aux) ) 
+Here is how much of TeX's memory you used:
+ 42602 strings out of 492973
+ 1111334 string characters out of 3124920
+ 1265695 words of memory out of 3000000
+ 45922 multiletter control sequences out of 15000+200000
+ 535281 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,15n,127p,1750b,979s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Sebastian/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-rm.enc}<C:/Users/Sebastian/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmr10.pfb>
+Output written on 04_ankerpunkte_arbeit.pdf (1 page, 42123 bytes).
+PDF statistics:
+ 46 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+

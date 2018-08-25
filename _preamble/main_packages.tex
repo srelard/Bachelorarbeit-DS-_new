@@ -1,0 +1,88 @@
+%//Allgemeine Pakete\\%
+\usepackage[utf8]{inputenc}				% OK, Korrektes Encoding in Latex-Schrift, 							check: 25.08.18
+\usepackage[ngerman]{babel}				% OK, Korrekte Schreibweise und Treenungsregelung					check: 25.08.18
+\usepackage[T1]{fontenc}				% OK, Korrektes Font-Encoding			 							check: 25.08.18
+\usepackage{amsmath} 					% OK, Mathematische Symbole und Schriften, 							check: 25.08.18
+\usepackage{amsfonts} 					% OK, Mathematische Symbole und Schriften, 							check: 25.08.18
+\usepackage{amssymb} 					% OK, Mathematische Symbole und Schriften, 							check: 25.08.18
+\usepackage{amsthm} 					% OK, Typesetting Theoreme, 										check: 25.08.18
+\usepackage{exscale}  					% OK, Skalierung von mathematischen Symbolen, 						check: 25.08.18
+\usepackage{amstext} 					% OK, Text in mathematischer Umgebung, 								check: 25.08.18 [enthalten in amsmath]
+\usepackage{verbatim} 					% OK, Funktion zum Schreiben von unformatiertem Text, 				check: 25.08.18
+\usepackage{float} 						% OK, Ermöglicht das Erstellen von eigenen Float Umgebungen, 		check: 25.08.18
+%\usepackage{makeidx}					% OK, Erstellen von Indizes zur Anlegung eines Glossars, 			check: 25.08.18
+\usepackage{standalone} 				% OK, Kompilierung als eigenes Dok und Einbindung über Main,		check: 25.08.18
+%\usepackage{import} 					% OK, Übernahme von relativen Verweisen in \inputs,					check: 25.08.18
+
+
+%//Syntaktische Formatierung\\%
+\usepackage{scrlayer-scrpage}			% OK, Definition und Manipulation von Kopf-, Fußzeile,				check: 25.08.18
+\usepackage[onehalfspacing]{setspace}	% OK, Einstellen Zeilenabstand (onehalfspacing, doublespacing)		check: 25.08.18
+\usepackage[							% OK, Definition des Seitenlayouts,									check: 25.08.18
+includeheadfoot,						%
+left=3cm,right=2cm,top=2cm,bottom=2cm,	%
+showframe								%
+]{geometry}								%
+\usepackage[section]{placeins} 			% OK, Verhindert das Wandern von floats in eine andere section, 	check: 25.08.18
+\usepackage{microtype} 					% OK, Abstand zwischen Zeichen anpassen zur Darstellung,			check: 25.08.18
+\usepackage{lmodern}					% OK, Latin Modern font,											check: 25.08.18
+
+
+%//Bilder und Tabellen\\%
+\usepackage{xcolor} 					% OK, Definieren und Nutzen von versch. Farben						check: 25.08.18
+\usepackage{graphicx}					% OK, Bereitstellen von \includegraphics							check: 25.08.18
+\usepackage{array} 						% OK, Erstellen eigener Columntypen in Tabellenumgebungen			check: 25.08.18
+\usepackage{rotating} 					% OK, Rotieren von floats in boxen (Tabellen, Bilder)				check: 25.08.18
+\usepackage{adjustbox}					% OK, Ähnlich wie resizebox für normale Textumgebung,				check: 25.08.18
+\usepackage{booktabs}					% OK, Schönere Tabellen ohne vertikale Linien \toprule etc.			check: 25.08.18
+\usepackage{tabularx}					% OK, Weiterer Spaltentyp passt Tabellenbreite  automatisch an		check: 25.08.18
+\usepackage{multirow}					% OK, Zellenspannung über mehrere Zeilen							check: 25.08.18
+%\usepackage{makecell}					% OK, Tabellenlayout (Tabaellenheader) ähnlich \multirow			check: 25.08.18
+\usepackage{tablefootnote}				% OK, Fußnoten in Tabellen (\footnote funktioniert nicht)			check: 25.08.18
+\usepackage{subcaption} 				% OK, Darstellung von Tabellenumgebungen aus mehreren (auch Figure)	check: 25.08.18
+
+
+%//Diverses\\%
+\usepackage{paralist} 					% OK, Aufzählung wie \itemize \compactenum (nochmal anschauen)		check: 25.08.18
+\usepackage[withpage]{acronym}			% OK, Genutze Abkürzungen werden das erste mal ausgeschrieben		check: 25.08.18
+\usepackage{fancybox}					% OK, Verschiedene Varianten von \fbox zur Umrahmung von Text		check: 25.08.18
+\usepackage[most]{tcolorbox}			% OK, Colorierte und umrahmte Textboxen wie \fbox für Theoreme		check: 25.08.18
+\usepackage{layouts}					% OK, Darstellen von Dokumenteninformationen,						check: 25.08.18
+%\usepackage[textsize=tiny]{todonotes}	% OK, Markierung und Erstellung von todo-Anmerkungen				check: 25.08.18
+%\usepackage[timer]{regstats}			% Keine Funktion?, Erhebung von Statistiken (Kompiluierungszeit)	check: 25.08.18
+%\usepackage[l2tabu, orthodox]{nag}		% Keine Funktion?, Prüfung nach veralteten Paketen					check: 25.08.18
+
+
+%//Theoreme\\%
+%\usepackage{ntheorem} 					% OK, Darstellung von Theoremen										check: 25.08.18
+%\usepackage{thm­tools} 				% OK, Darstellung von Theoremen <-									check: 25.08.18
+\newtcbtheorem[number within=section, list inside=def]{mydef}{Definition}%
+{enhanced, colback=white,colframe=\fillTwo,fonttitle=\bfseries, description delimiters={\flqq}{\frqq}, description font=\mdseries\ttfamily, boxrule=0.4pt,toprule=3pt, boxsep=3pt,arc=0mm, list text={test}, drop shadow}{def}
+
+
+%//Zitate und Links\\%
+\usepackage{csquotes}					% OK, Korrekte Darstellung von "" je nach Land						check: 25.08.18
+\usepackage[]{hyperref}					% OK, Cross-Referencing und hypermarks im Dokument					check: 25.08.18
+\hypersetup{
+bookmarksopen=true,
+pdfpagelabels=true,
+plainpages=false,
+colorlinks=true,
+citecolor=blue,
+linkcolor=blue,
+urlcolor=blue}
+
+%//BibLatex\\%
+\usepackage[backend=biber,				% OK, Neue Version von BibTex zur Darstellung Literaturverzeichnis	check: 25.08.18 
+style=authoryear, %% Zitierstil
+natbib=true, %% Bereitstellen von natbib-kompatiblen Zitierkommandos
+hyperref=true, %% hyperref-Paket verwenden, um Links zu erstellen
+maxcitenames=1,
+uniquelist=false,
+bibstyle=numeric,
+url=false,
+doi=false
+]{biblatex}
+%\addbibresource{bibfile.bib} 			% Einbinden der bib-Datei
+%\DefineBibliographyStrings{ngerman}{andothers={et al.}} % et al. statt u.a.
+%\renewcommand*{\nameyeardelim}{\addcomma\space} % Macht im Zitat ein Komma vor das Jahr

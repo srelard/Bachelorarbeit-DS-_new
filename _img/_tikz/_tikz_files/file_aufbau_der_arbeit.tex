@@ -1,0 +1,105 @@
+\begin{tikzpicture}
+[auto, 
+decision/.style={diamond, draw=blue, thick, fill=blue!20,text width=4.5em,align=flush center,inner sep=1pt},
+block/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em},
+block_todo/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em, rounded corners, outer sep=5},
+block_done/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em, rounded corners, outer sep=5},
+block_normal/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em, rounded corners, outer sep=5},
+block_phantom/.style ={ block_normal, draw=none},
+block_background/.style ={ rectangle,  draw=, fill=none,  text centered, minimum height=15mm,fill opacity=.1, rounded corners},
+output/.style ={trapezium,draw,fill=none, minimum height=10mm,  align=center, trapezium left angle=60, trapezium right angle=120, text width=70},
+line_inner/.style ={draw, -latex,shorten >=-4pt, shorten <=-4pt},
+line_outer/.style ={draw, -latex,shorten >=4pt, shorten <=4pt}]
+]
+
+
+\matrix (table) [column sep=1.5cm,row sep=1cm, ampersand replacement=\&,  nodes in empty cells, in front of path]
+{
+% row 1
+\node [block_normal, draw=none] (11) {\textbf{Logische Struktur der Arbeit}};\& [.6cm]
+ \node [block_normal, fill=none, draw=none] (12) {\\ \quad\\\quad\\\quad\\\quad\\\quad\\\textbf{Empirie}}; \&[-1cm]
+ \node [block_normal, fill=none, draw=none] (13) {\\ \quad\\\quad\\\quad\\\quad\\\quad\\\textbf{Theorie}};  \& [0cm]
+ \node [] (14) {};   \\[-.5cm]
+
+% row 2
+\node [block_normal] (21) {Kapitel 1\\Problembeschreibung und Zielsetzung testset};
+\&  \node [block_done] (22) {(1) Theoretisches fsdfjdsojf Vorwissen};
+\&  \node [block_phantom] (23) {};
+\&  \node [] (24) {};
+\\
+
+% row 3
+\node [block_normal] (31) {Kapitel 2\\Grundlagen und Definitionen}; \& 
+\node [block_done] (32) {(2) Theoretisches Rahmenwerk};  
+\&\node [block_phantom] (33) {};  ;
+\& \node [output] (34) {RQ1\vphantom{\begin{tabular}{c}x\\ y\end{tabular}}};
+\\
+% row 4
+\node [block_normal] (41) {Kapitel 3\\Systematische Literaturanalyse}; \&
+\node [block_done] (42) {(3) Ableiten von Hypothesen}; \&   
+\node [block_phantom] (43) {}; 
+ \&\node [output] (44) {RQ2\vphantom{\begin{tabular}{c}x\\ y\end{tabular}}};\\
+ 
+% row 5
+\node [block_normal] (51) {Kapitel 4\\Implikationen f\"ur GM-Modellierungstools}; \& 
+\node [block_phantom] (52) {}; \&  
+\node [block_done] (53) {(4) Pr\"ufung der Hypothesen\\ (z.b. experimentell)};
+ \&\node [output] (54) {Zuk\"unftige Forschungsarbeiten}; \\
+
+% row 6
+\node [block_normal] (61) {Kapitel 5\\Diskussion der Ergebnisse};\& 
+\node [block_done] (62) {(5) Finale Schlussfolgerung / \\Neues Wissen};
+ \& \node [block_phantom] (63) {};
+ \&  \node [] (64) {};\\
+ 
+% row 7
+\node [block_normal] (71) {Kapitel 6\\Fazit und k\"unftige Forschungsfelder}; \& 
+\node [block, fill=none, draw=none] (72) {};  \&  
+\node [block, fill=none, draw=none] (73) {};\&  
+\node [] (74) {};\\
+};
+
+
+\begin{scope}[on background layer]
+%%%HEADER%%%%%
+\node[fit=(12)(13), draw=none, minimum height=1cm, fill=none]{\textbf{Deduktiver Forschungsprozess\\ nach Spens et. al}};
+%%%%%SPALTE1%%%%%%%%%
+\node[fit=(21)(71), block_background, fill=white]{};
+%%%%%SPALTE2%%%%%%%%
+\node[fit=(22)(63), block_background]{};
+\end{scope}
+ 
+ 
+%Pfeile Kapitelstruktur
+ \draw [line_inner](21) to [bend left=0] node [above] {} (31)  ;
+ \draw [line_inner](31) to [bend left=0] node [above] {} (41)  ;
+ \draw [line_inner](41) to [bend left=0] node [above] {} (51)  ;
+ \draw [line_inner](51) to [bend left=0] node [above] {} (61)  ;
+ \draw [line_inner](61) to [bend left=0] node [above] {} (71)  ;
+
+
+%Pfeile Prozess
+ \draw [line_inner](22) to [bend left=0] node [above] {} (32);
+ \draw [line_inner](32) to [bend left=0] node [above] {} (42)  ;
+ \draw [line_inner](42.south) to [bend left=0] node [above] {} (53)  ;
+ \draw [line_inner](53) to [bend left=0] node [above] {} (62.north)  ;
+
+%Pfeile Interaktion Kapitel Prozess
+ \draw [line_outer](21.east) to [bend left=0] node [above] {} (22.west)  ;
+% \draw [line_outer](31.east) to [bend left=0] node [above] {$$} (22.west)  ;
+  \draw [line_outer](31.east) -| ++ (.5,0) --  node [above] {} (22.west)  ;
+% \draw [line_outer](41.east) to [bend left=0] node [above] {$$} (32.west)  ;
+ \draw [line_outer](41.east) -| ++ (.5,0) --  node [above] {} (32.west)  ;
+ %\draw [line_outer](51.east) to [bend left=0] node [above] {$$} (42.west)  ;
+  \draw [line_outer](51.east) -| ++ (.5,0) --  node [above] {} (42.west)  ;
+ %\draw [line](61) to [bend left=0] node [above] {$$} (22)  ;
+% \draw [line](71.east) to [bend right=40] node [above] {$$} (53)  ;
+ \draw [line_outer, dashed,shorten >=-3pt](71.east) -|   node [above, pos=.3] {Theoriepr\"ufung in Anlehung }  node [below, pos=.3] {an Kuechler et al.}(53)  ;
+ 
+%Pfeile Output
+ \draw [line_outer, shorten >=1pt](33) to [bend left=0] node [above] {} (34)  ;
+ \draw [line_outer,shorten >=1pt](43) to [bend left=0] node [above] {} (44)  ;
+ \draw [line_outer, dashed,shorten <=1pt](54) to [bend left=0] node [above] {} (53)  ;
+  \draw [line_outer, dashed](54) |-  node [above] {} (63)  ;
+
+\end{tikzpicture}

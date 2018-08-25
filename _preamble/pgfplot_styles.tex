@@ -1,0 +1,68 @@
+\pgfplotsset{
+  global_appearance/.style={
+  grid_appearance,
+  scale only axis,
+  width= .75\textwidth,
+  %width=12.5cm, % 13,5
+  height=.4\textwidth
+  }
+}
+
+\pgfplotsset{
+  grid_appearance/.style={
+   grid,
+   grid style = {loosely dotted , thin},
+  }
+}
+
+\pgfplotsset{
+ %every axis plot/.append style={no markers},
+  every pin/.append style={font=\footnotesize },
+  every mark/.append style={scale=3},
+  legend style=
+  {
+  font=\tiny, 
+  %draw=none, 
+  cells={align=left}, 
+  at={(0.5,1.00)},
+  anchor=north,
+ % legend pos= north west
+  },
+  legend columns = 2,
+  label style={font=\scriptsize},
+  tick label style={font=\tiny},
+}
+
+\pgfplotsset{
+  tuftle_like_axes/.style={
+  thin,  %vorher semithick
+  tick style={major tick length=4pt,thin,black}, %vorher semithick
+  separate axis lines,
+  axis x line*=bottom,
+  axis x line shift=10pt,
+  xlabel shift=5pt,
+  axis y line*=left,
+  axis y line shift=10pt,
+  tick align = outside,
+  ylabel shift=2pt,
+  enlarge y limits=false,
+  enlarge x limits=false,
+  }
+}
+
+%%Tufte-Design%%
+% \makeatletter
+% \pgfplotsset{
+  % tufte axes/.style =
+    % {
+      % after end axis/.code =
+        % {
+          % \draw ({rel axis cs:0,0} -| {axis cs:\pgfplots@data@xmin,0}) -- ({rel axis cs:0,0}  -| {axis cs:\pgfplots@data@xmax,0});
+          % \draw ({rel axis cs:0,0} |- {axis cs:0,\pgfplots@data@ymin}) -- ({rel axis cs:0,0}  |-{axis cs:0,\pgfplots@data@ymax});
+        % },
+      % axis line style = {draw = none},
+      % tick align      = outside,
+      % tick pos        = left
+    % }
+% }
+% \makeatother

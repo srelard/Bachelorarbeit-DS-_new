@@ -1,0 +1,92 @@
+%\PassOptionsToPackage{svgnames}{xcolor} %farbige blöcke
+\documentclass[
+%DIV = calc, %automatische Berechnung vonsseitenrändern
+10pt,
+a4paper,
+oneside,
+bibtotoc, 
+liststotoc, 
+headsepline, 
+smallheadings, 
+openright, 
+fleqn,
+appendixprefix,
+draft,
+BCOR5mm]
+{scrbook}
+
+%%Pfadprüfung%%
+\IfFileExists{../../_preamble/check_file.tex}% Prüfung aus welcher Datei der Aufruf stattfindet
+{%
+\providecommand{\myPath}{../../}% file exists=true: befinde mich im Unterverzeichnis
+}%
+{%
+\providecommand{\myPath}{}% file exists=false: befinde mich im RootVerzeichnis
+}%
+%%Pfadprüfung%%
+
+%%Einbinden globaler Pakete und Paketeinstellungen%%
+\input{\myPath_preamble/main_packages.tex}
+\input{\myPath_preamble/graphic_packages.tex}
+\input{\myPath_preamble/tikz_library.tex}
+\input{\myPath_preamble/tikz_styles.tex}
+\input{\myPath_preamble/pgfplot_styles.tex}
+\input{\myPath_preamble/definitions_and_settings.tex}
+%%Einbinden globaler Pakete und Paketeinstellungen%%
+
+
+
+
+\begin{document}
+
+%% Ausgabe Dokumenteneigenschaften
+%\input{\myPath_preamble/document_properties.tex}
+%% Ausgabe Dokumenteneigenschaften
+
+
+\begin{onehalfspace} %Start 1,5-facher Zeilenabstand
+\pagestyle{empty}
+\pagenumbering{alph}
+\input{\myPath_text/0_pre_mainmatter/01_title.tex} \cleardoublepage
+\input{\myPath_text/0_pre_mainmatter/02_erklaerung.tex} \cleardoublepage
+\input{\myPath_text/0_pre_mainmatter/03_abstract.tex} \cleardoublepage
+\input{\myPath_text/0_pre_mainmatter/04_vorwort.tex} \cleardoublepage
+\pagestyle{scrheadings}
+\frontmatter
+\tableofcontents \cleardoublepage
+%\addcontentsline{toc}{chapter}{\listfigurename}
+ \listoffigures \cleardoublepage
+%\listofalgorithms \cleardoublepage
+\listoftables \cleardoublepage
+%\tcblistof[\chapter]{def}{Definitionsverzeichnis}\cleardoublepage
+%\listoftodos \cleardoublepage
+\input{\myPath_text/0_pre_mainmatter/05_abkuerzung.tex} \cleardoublepage
+
+%//Ausprobieren\\%
+%\newfloat{ergebnisse}{thb}{loh}[chapter] % Liste der detaillierten Ergebnisse
+%\floatname{ergebnisse}{Ergebnisse}
+%\listof{ergebnisse}{Liste der detaillierten Ergebnisse}
+%\cleardoublepage
+%//Ausprobieren\\%
+
+
+\mainmatter % der eigentliche Text folgt hier
+\input{\myPath_text/1_mainmatter/010_einleitung.tex}
+\input{\myPath_text/1_mainmatter/020_meta_grundlagen.tex}
+\input{\myPath_text/1_mainmatter/021_grundlagen_exp.tex}
+\input{\myPath_text/1_mainmatter/021_grundlagen_gm.tex}
+\input{\myPath_text/1_mainmatter/021_grundlagen_krea.tex}
+\input{\myPath_text/1_mainmatter/021_grundlagen_rev.tex}
+\input{\myPath_text/1_mainmatter/021_grundlagen_wi.tex}
+\input{\myPath_text/1_mainmatter/030_meta_rq1.tex}
+\input{\myPath_text/1_mainmatter/031_literaturreview_identifikation.tex}
+\input{\myPath_text/1_mainmatter/032_literaturreview_analyse.tex}
+\input{\myPath_text/1_mainmatter/040_meta_rq2.tex}
+\input{\myPath_text/1_mainmatter/041_ergebnisse_implikationen.tex}
+
+% \printbibliography
+%\input{text/anhang} % Anhänge
+\end{onehalfspace} %Ende 1,5-facher Zeilenabstand
+
+
+\end{document}

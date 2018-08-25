@@ -1,0 +1,41 @@
+%//Commands\\%
+\newcommand{\fillOne}{green!35!black}						% Farbenneudefinition	
+\newcommand{\fillTwo}{black!70}								% Farbenneudefinition	
+\newcommand{\fillThree}{red!10!}							% Farbenneudefinition	
+\newcommand{\fillFour}{black!10!blue}						% Farbenneudefinition	
+
+\newlength{\freewidth}										% Zur Berechnung noch freien Platzes bei prozentualer Angabe der Spaltenbreite in Tabellen
+
+%//Settings\\%
+\setcounter{secnumdepth}{3}									% Sektionstiefe definieren zur Darstellung im Inhaltsverzeichnis		
+\setcounter{tocdepth}{4}									% Tiefe definieren zur Darstellung im Inhaltsverzeichnis
+
+\renewcommand{\topfraction}{0.85} 							% Anteil einer Seite, die von Floats belegt sein darf (default 0.7)
+\renewcommand{\textfraction}{0.1} 							% Anteil einer Seite, die mindestens Text sein muss (default 0.2)
+\renewcommand{\floatpagefraction}{0.75} 					% Anteil einer Seite, die ein Float einnehmen darf, ohne auf die nächste Seite gesetzt zu werden (default 0.5)	
+
+\newtheorem{theorem}{Satz}									% Theorem Satz
+\newtheorem{definition}{Definition}							% Theorem Definition <-
+\newtheorem{lemma}{Lemma}									% Theorem Lemma
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} 	% Linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} 	% Zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} 	% Rechtsbündig mit Breitenangabe
+%\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}} 	% Vertikale zentrierung
+
+\captionsetup[figure]{										% Captionsetup für Figure-Umgebung
+%skip=5cm,
+position=below,
+justification=centering,
+font=small
+}
+\captionsetup[table]{										% Captionsetup für Tabellen-Umgebung
+%skip=5cm,
+position=below,
+justification=centering,
+font=small}
+\setlength\abovecaptionskip{10pt}
+\setlength\belowcaptionskip{10pt}
+
+
+

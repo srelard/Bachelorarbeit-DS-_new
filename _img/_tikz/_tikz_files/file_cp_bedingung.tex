@@ -1,0 +1,111 @@
+\begin{tikzpicture}
+[auto,
+decision/.style={diamond, draw=blue, thick, fill=blue!20,text width=4.5em,align=flush center,inner sep=1pt},
+block/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em},
+block_todo/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em, rounded corners, outer sep=5},
+block_done/.style ={ rectangle, draw, fill=white,  text centered, minimum height=15mm, text width=12em, rounded corners, outer sep=5},
+block_normal/.style ={ rectangle, draw, fill=white,  align= center, minimum height=1.5cm, text width=8em, rounded corners, outer sep=0},
+block_normal_row/.style ={ rectangle, draw, fill=white,  align= center, minimum height=.9cm, text width=8em, rounded corners, outer sep=0},
+block_normal_row_stim/.style ={ rectangle, draw, fill=white,  align= center, minimum height=.9cm, rounded corners, outer sep=0, inner sep=0},
+block_exp/.style ={ rectangle, draw=none, fill=none,  text centered, minimum height=1.5cm, text width=12em,font=\bfseries, rounded corners, outer sep=0},
+block_phantom/.style ={ block_normal, draw=none, fill=none},
+block_background/.style ={ rectangle,  draw=none, fill=black,  text centered, minimum height=15mm,fill opacity=.1, rounded corners=0, inner sep=5},
+output/.style ={trapezium,draw,fill=none, minimum height=10mm,  align=center, trapezium left angle=60, trapezium right angle=120, text width=50},
+line_inner/.style ={draw, -latex,shorten >=0pt, shorten <=0pt},
+kreis/.style ={ circle, draw, fill=white,  text centered, minimum height=15mm, text width=10em, rounded corners, outer sep=0, minimum size=.4cm},
+zylinder/.style={cylinder, draw, fill=yellow!20,shape border rotate=90, text height=5, align=center, aspect=.1, text width=10em, minimum height=6.5em, minimum width=2em},
+line_outer/.style ={draw, -latex,shorten >=4pt, shorten <=4pt}]
+]
+
+\path[draw=none] (0,0) rectangle ++(16cm,5cm);
+\matrix  [column sep=1.3cm,row sep=1cm, ampersand replacement=\&,  nodes in empty cells, anchor=west] (table) at (current bounding box.west)
+{
+% row 1
+\node [block_normal_row] (11) {(1) Pretest};  \& [-.5cm]
+\node [block_normal_row, draw=none] (12) {}; \& [-.5cm]
+\node [block_normal_row, draw=none] (13) {};\& [0cm]
+\node [block_phantom] (14) {};\& [0cm]
+\node [block_normal_row] (15) {(3) Posttest};\& [-.5cm]
+\node [block_normal_row, ] (16) {(4) Response};\\ [0cm]
+% row 2
+\node [block_phantom] (21) {};\& 
+\node [block_phantom] (22) {}; \&
+\node [block_normal] (23) {Bedingung X1};\&
+\node [block_normal] (24) {};\&
+\node [block_normal] (25) {Operation-alisierung Xn};\&
+\node [block_phantom] (26) {}; \\[-.5cm]
+ % row zwischen
+\node [block_phantom, minimum height=.5cm] (01) {};\& 
+\node [block_phantom, minimum height=.5cm] (02) {}; \&
+\node [block_phantom, minimum height=.5cm] (03) {[...]};\&
+\node [block_phantom, minimum height=.5cm] (04) {[...]};\&
+\node [block_phantom, minimum height=.5cm] (05) {};\&
+\node [block_phantom, minimum height=.5cm] (06) {}; \\[-.5cm]
+ % row 3
+\node [block_phantom] (31) {};\& 
+\node [block_phantom] (32) {}; \&
+\node [block_normal] (33) {Bedingung Xn};\&
+\node [block_normal] (34) {};\&
+\node [block_normal] (35) {Operation-alisierung}; \&
+\node [block_phantom] (36) {}; \\ 
+};
+
+
+
+\node[fit=(21)(31), block_normal, inner sep=0](vortest){Vortest};
+\node[fit=(22)(32), block_normal, inner sep=0](uv){Unabh\"angige Variable X1};
+\node[fit=(12.north west)(13.south east), block_normal_row_stim](stimulus){\\(2) Stimulus};
+\node[fit=(26)(36), block_normal, inner sep=0](av){Abh\"angige Variable Y1};
+% \node[fit=(36.south)(26.north), block_normal, decorate, decoration={random steps,segment length=2pt, amplitude=1pt}] (stoer) {\vspace{-10mm} StÃ?Â¶rvariablen \setlength{\leftmargini}{1.em} \vspace{18mm} 
+% \begin{itemize} \itemsep0em 
+% \item Situations-\\bedingt
+% \item Personen-\\bedingt
+% \end{itemize}};
+\node[fit=(24)(34), block_normal, decorate, decoration={random steps,segment length=5pt, amplitude=1pt}] (stoer) {\vspace{-10mm} St\"orvariablen \setlength{\leftmargini}{1.em} \vspace{18mm} 
+\begin{itemize} \itemsep0em 
+\item Situations-\\bedingt
+\item Personen-\\bedingt
+\end{itemize}};
+
+
+\draw[] (24.south west) -- (24.south east);
+
+%%%Background%%%%
+ \begin{scope}[on background layer]
+\node[fit=(11)(36), rectangle,  draw, inner sep=30, dashed] (background){};
+\node[fit=(11)(31), rectangle,  draw, inner sep=5, rounded corners, drop shadow, fill=white] (left){};
+\node[fit=(12)(33), rectangle,  draw, inner sep=5,  rounded corners,drop shadow, fill=white] (midleft){};
+\node[fit=(15)(35), rectangle,  draw, inner sep=5,  rounded corners,drop shadow, fill=white] (midright){};
+\node[fit=(16)(36), rectangle,  draw, inner sep=5,  rounded corners,drop shadow, fill=white] (right){};
+ \end{scope}
+%%%Background%%%%
+\node[rectangle, draw, below  =10mm of background.south east, xshift=-22mm, align=right, text width=12em] (test){Kontrollierte Umgebung};
+
+
+
+%%Pfeile%%%
+\draw[decorate,decoration={expanding waves, angle=65, segment length=8}] (stoer.north)  -- ++ (90:1cm);
+\draw[decorate,decoration={expanding waves, angle=65, segment length=8}] (stoer.east)  -- ++ (0:1cm);
+\draw[decorate,decoration={expanding waves, angle=65, segment length=8}] (stoer.south)  -- ++ (270:1cm);
+\draw[decorate,decoration={expanding waves, angle=65, segment length=8}] (stoer.west)  -- ++ (180:1cm);
+%\draw[decorate,decoration={expanding waves, angle=65,segment length=8}] (stoer.east)  --(right.209);
+\draw[line_inner] (test) -| (background.south);
+\draw[line_inner] (25.north) |- ++ (0,.5) -|(av.north);
+\draw[line_inner] (midright.south) -| ++ (0,.-.5) -| (right.south);
+
+\draw[line_outer] (vortest) to (uv);
+\draw[line_inner] (uv) to (23.west);
+\draw[line_inner] (uv) to (33.west);
+\begin{scope}[on background layer]
+\draw[line_outer] (23.east) to (25.west);
+\draw[line_outer] (33.east) to (35.west);
+\draw[line_outer] (33.east) to (25.west);
+\draw[line_outer] (23.east) to (35.west);
+ \end{scope}
+\draw[line_outer] (11) to (stimulus);
+\draw[line_outer] (stimulus) to (15);
+\draw[line_outer] (15) to (16);
+
+
+%\draw [] (3.5,1) rectangle (4.5,-3);
+\end{tikzpicture}

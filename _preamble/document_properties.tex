@@ -1,0 +1,36 @@
+% display some document properties
+
+\edef\defaultfont{\fontname\font}  % Speichert die Default Font inkl. Schriftgrad
+\edef\defaultsize{\csname f@size\endcsname}  % Speichert die Default Font inkl. Schriftgrad
+\newcommand{\currentfont}{\fontname\font}
+\newcommand{\currentsize}{\csname f@size\endcsname}
+
+\begin{table}[]
+\footnotesize
+\centering
+\setlength{\freewidth}{\dimexpr\textwidth-6\tabcolsep}
+\begin{tabular}{L{.8\freewidth}L{.1\freewidth}L{.10\freewidth}}   % 100% without resizbox
+\toprule
+Feature & Value \\
+\midrule
+PaperWidth in [cm]& \printinunitsof{cm}\prntlen{\paperwidth}\\
+PaperHeight in [cm]& \printinunitsof{cm}\prntlen{\paperheight}\\
+TextWidth in [cm] &  \printinunitsof{cm}\prntlen{\textwidth}  \\
+TextHeight in [cm] & \printinunitsof{cm}\prntlen{\textheight}\\
+\midrule
+MarginParSep in [cm] & \printinunitsof{cm}\prntlen{\marginparsep}\\
+MarginParWidth in [cm] & \printinunitsof{cm}\prntlen{\marginparwidth}\\
+FootSkip in [cm]& \printinunitsof{cm}\prntlen{\footskip}\\
+\midrule
+Default Font &  \defaultfont \\
+Default Size   & \defaultsize \\
+Current Font &  \currentfont \\
+Current Size &  \currentsize \\
+\midrule
+Colour1 & \fillOne & \begin{tikzpicture} \draw[fill=\fillOne, draw=none] (0,0) rectangle (1,.2); \end{tikzpicture}\\
+Colour2 & \fillTwo & \begin{tikzpicture} \draw[fill=\fillTwo, draw=none] (0,0) rectangle (1,.2); \end{tikzpicture}\\
+Colour3 & \fillThree & \begin{tikzpicture} \draw[fill=\fillThree, draw=none] (0,0) rectangle (1,.2); \end{tikzpicture}\\
+Colour4 & \fillFour & \begin{tikzpicture} \draw[fill=\fillFour, draw=none] (0,0) rectangle (1,.2); \end{tikzpicture}\\
+\bottomrule 
+\end{tabular}
+\end{table}

@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+\begin{axis}[
+ybar interval,
+global_appearance,
+tuftle_like_axes,
+ymax=800,
+ymin=0, 
+ybar interval=1, 
+date coordinates in = x,  
+date ZERO = 1988-01-01, 
+xmax = 2014-12-31, 
+x tick label style={rotate=90,anchor=east},
+%minor y tick num = 5,
+ylabel = Anzahl Veröffentlichungen,
+xticklabel=\year,
+height=\axisdefaultheight,
+]
+
+\IfFileExists{data/check_file.tex}% aus welcher datei der aufruf stattfindet
+{%
+\addplot [thin]table [x=year, y=gm]{data/plot_gm_gmi.dat};%
+\addplot [densely dashed,  thin ]table [x=year, y=gmi]{data/plot_gm_gmi.dat};%
+}%
+{%
+\addplot [thin]table [x=year, y=gm]{_img/_pgfplot/data/plot_gm_gmi.dat};%
+\addplot [densely dashed, thin ]table [x=year, y=gmi]{_img/_pgfplot/data/plot_gm_gmi.dat};%
+}%
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,19 @@
+\documentclass[a4paper,]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{mathptmx}
+\usepackage{tikz,amsmath,amssymb,bm,color}
+\usepackage[margin=0cm,nohead, showframe]{geometry}
+\usepackage[active,pdftex,tightpage]{preview}
+\PreviewEnvironment[]{tikzpicture}
+\PreviewEnvironment[]{pgfpicture}
+\input{C:/Users/Sebastian/GDrive/WS_1819/Bachelorarbeit/_new/_preamble/tikz_library.tex}
+\input{C:/Users/Sebastian/GDrive/WS_1819/Bachelorarbeit/_new/_preamble/tikz_styles.tex}
+\input{C:/Users/Sebastian/GDrive/WS_1819/Bachelorarbeit/_new/_preamble/pgfplot_library.tex}
+\input{C:/Users/Sebastian/GDrive/WS_1819/Bachelorarbeit/_new/_preamble/pgfplot_styles.tex}
+\DeclareSymbolFont{symbolsb}{OMS}{cmsy}{m}{n}
+\SetSymbolFont{symbolsb}{bold}{OMS}{cmsy}{b}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{symbolsb}
+\begin{document}
+<>
+\end{document}
