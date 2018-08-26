@@ -1,18 +1,21 @@
+%&preamble
+%Einbinden des vorkompilierten Preambles, bei Änderungen Ausführen von /preamble.bat 
 %\PassOptionsToPackage{svgnames}{xcolor} %farbige blöcke
 \documentclass[
 %DIV = calc, %automatische Berechnung vonsseitenrändern
 10pt,
 a4paper,
 oneside,
-bibtotoc, 
-liststotoc, 
+bibliography=totoc,         %vorher bibtotoc
+listof=totoc,               %vorher liststotoc
 headsepline, 
-smallheadings, 
+headings=small,             %vorher smallheadings
 openright, 
 fleqn,
 appendixprefix,
 draft,
-BCOR5mm]
+BCOR=5mm,                   %vorher BCOR5mm
+]
 {scrbook}
 
 %%Pfadprüfung%%
@@ -29,12 +32,15 @@ BCOR5mm]
 \input{\myPath_preamble/main_packages.tex}
 \input{\myPath_preamble/graphic_packages.tex}
 \input{\myPath_preamble/tikz_library.tex}
+%%Einbinden globaler Pakete und Paketeinstellungen%%
+
+\endofdump %% <-- Precompile bis hierhin 
+
+%%Einbinden globaler Stile uns Einstellungen%%
 \input{\myPath_preamble/tikz_styles.tex}
 \input{\myPath_preamble/pgfplot_styles.tex}
 \input{\myPath_preamble/definitions_and_settings.tex}
-%%Einbinden globaler Pakete und Paketeinstellungen%%
-
-
+%%Einbinden globaler Stile und Einstellungen%%
 
 
 \begin{document}
@@ -42,7 +48,6 @@ BCOR5mm]
 %% Ausgabe Dokumenteneigenschaften
 %\input{\myPath_preamble/document_properties.tex}
 %% Ausgabe Dokumenteneigenschaften
-
 
 \begin{onehalfspace} %Start 1,5-facher Zeilenabstand
 \pagestyle{empty}
